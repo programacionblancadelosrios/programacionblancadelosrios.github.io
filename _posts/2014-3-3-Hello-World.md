@@ -1,10 +1,9 @@
 ---
 layout: post
-title: You're up and running!
+title: Trabajo sobre la energía
 ---
 
-Next you can update your site name, avatar and other options using the _config.yml file in the root of your repository (shown below).
+Durante este tercer trimestre los alumnos de 6º de primaria del CEIP Blanca de los Ríos han trabajado un proyecto sobre los diferentes tipos de generación de energía que existen actualmente en nuestro país. Se utiliza el programa Scratch junto con la tarjeta Makey Makey. Ellos crean sus tableros donde conectan la tarjeta Makey Makey y cambian las pantallas del proyecto en Scratch según presionen un tipo u otro de energía.
 
-![_config.yml]({{ site.baseurl }}/images/config.png)
+Aquí están sus tableros:
 
-The easiest way to make your first post is to edit this one. Go into /_posts/ and update the Hello World markdown file. For more instructions head over to the [Jekyll Now repository](https://github.com/barryclark/jekyll-now) on GitHub.
