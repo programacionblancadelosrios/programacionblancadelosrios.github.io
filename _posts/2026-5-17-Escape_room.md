@@ -94,5 +94,5 @@ Haz clic en la imagen para comenzar.👇
 <span class="radio" style="display:block; text-align:center; max-width:400px; margin:auto; "><a href="https://programacionblancadelosrios.github.io/latorredeltiempo/" target="_blank" rel="noopener">![tiempo]</a></span>
 
 
-[tiempo]: /images/tiempo.png
+[tiempo]: /images/presentacion.png
 [tictac]: /images/maestro_tic_tac.png
