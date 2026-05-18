@@ -6,7 +6,13 @@ title: Escape room
 Aqui tenemos un escape room realizado en Scratch para divertirnos un rato. Esperamos desde Diverytec y su proyecto CoderDojo La Rinconada que os guste.
 
 
-## Ambientación
+## 🏰 Historia del Escape Room: La Torre del Tiempo
+
+
+<span class="radio" style="display:block; text-align:center; max-width:200px; margin:auto; ">![tictac]</span>
+
+
+### 🌟 Introducción
 
 Hace muchos años, en el centro del reino de Cronos, se alzaba una torre misteriosa: La Torre del Tiempo.
 Dentro vivía Maestro Tic-Tac, un guardián encargado de mantener el tiempo en orden para que los días, meses y estaciones siguieran su curso.
@@ -89,3 +95,4 @@ Haz clic en la imagen para comenzar.👇
 
 
 [tiempo]: /images/tiempo.png
+[tictac]: /images/maestro_tic_tac.png
