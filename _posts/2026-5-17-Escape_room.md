@@ -51,7 +51,7 @@ Debéis repetirla exactamente, como un Simón dice mágico.
 Si falláis, seguiréis encenrrados hasta la eternidad.
 Si acertáis, os llevará a otro lugar.
 
-📚 Prueba 3: La Biblioteca de los Números
+### 📚 Prueba 3: La Biblioteca de los Números
 
 Llegáis a una biblioteca antigua en Alejandría, biblioteca que alberga la sabiduría de todos los libros jamás escritos.
 
