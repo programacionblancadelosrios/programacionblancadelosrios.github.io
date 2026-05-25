@@ -1,54 +1,70 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    {% include analytics.html %}
-    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    {% include meta.html %}
+<head>
+  {% include analytics.html %}
+  <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
 
-    <!--[if lt IE 9]>
+  {% include meta.html %}
+
+  <!--[if lt IE 9]>
       <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
-    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
-    <link rel="icon" href="../images/favicon.png" type="image/png">
-    <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+  <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}"
+    href="{{ site.baseurl }}/feed.xml" />
+  <link rel="icon" href="../images/favicon.png" type="image/png">
+  <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml" />
+  <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
 
 
-    
-  </head>
 
-  <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+</head>
 
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-          </div>
+<body>
+  <div class="wrapper-masthead">
+    <div class="container">
+      <header class="masthead clearfix">
+        <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
 
-          <nav>
-            <a href="{{ site.baseurl }}/">Home</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
-      </div>
+        <div class="site-info">
+          <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+        </div>
+
+        <nav>
+          <a href="{{ site.baseurl }}/">Home</a>
+          <a href="{{ site.baseurl }}/about">About</a>
+        </nav>
+      </header>
     </div>
+  </div>
 
-    <div id="main" role="main" class="container">
-      {{ content }}
+  <div id="main" role="main" class="container">
+    {{ content }}
+  </div>
+  <!-- Caja para mostrar las opciones de cookie -->
+  <div id="cajacookies" class="abrir">
+    <div class="contenido-cookie">
+      <p>Éste sitio web usa cookies, si permanece aquí acepta su uso. Puede leer más sobre el uso de cookies en nuestra
+        <a href="{{ site.baseurl }}/politica-privacidad/">política de privacidad</a>.
+      </p>
+      <button onclick="aceptarCookies()">Aceptar cookies</button>
     </div>
-
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
+  </div>
+  <div class="wrapper-footer">
+    <div class="container">
+      <footer class="footer">
+        {% include svg-icons.html %}
+        <div class="grande">
+          <p>&copy;{{ site.time | date: '%Y' }} <a href="https://diverytec.github.io/" target="__blank">Diverytec</a>.
+            Andrés Ramos</p>
+        </div>
+      </footer>
     </div>
+  </div>
+  <script src="{{site.baseurl}}/js/cookie.js"></script>
 
-    {% include analytics.html %}
-  </body>
+</body>
+
 </html>
